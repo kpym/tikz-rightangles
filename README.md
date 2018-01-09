@@ -22,7 +22,7 @@ For example the code
 \begin{document}
   \tikz \draw (2,0) coordinate (A) -- (1,1) coordinate (B)
     -- ([turn]90:1) coordinate (C)
-    pic [draw=red,fill=lightgray] {right angle = A--B--C};
+    pic [draw=red,fill=lightgray,angle eccentricity=.5,pic text=$\cdot$] {right angle = C--B--A};
 \end{document}
 ```
 ![example basic usage](examples/rightangle.png)
