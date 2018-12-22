@@ -3,6 +3,10 @@ This is a TikZ library named **`rightangles`** that provides a way to draw right
 
 The library is a simple modification of the original library `angles`.
 
+## Note
+
+The code of this library [was merged](https://sourceforge.net/p/pgf/git/merge-requests/3/) on 2018-06-21 with the standard [tikzlibraryangles.code.tex](https://sourceforge.net/p/pgf/git/ci/078baea5afd1cd47c84169df1588694c3eb97d09/tree/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex). So after the next official realease of Ti*k*Z this library will become useless.
+
 ## How to use it
 * Put `tikzlibraryrightangles.code.tex` file in a folder accessible by latex.
   For example in the same folder as your main file.
